@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="printToFileJButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="outputJPanel" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="277" max="-2" attributes="0"/>
+                      <Component id="idleTimeJTextField" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="msgsPerClientJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                      <Component id="msgsPerClientTextField" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="NoClientsJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+                      <Component id="NoOfClientsJTextField" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="portNoJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="hostJLable" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="portNoJTextField" max="32767" attributes="0"/>
+                          <Component id="hostJTextField" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="srvrNameJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
+                      <Component id="srvrNameJTextField" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                              <Component id="TitleJLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="178" max="-2" attributes="0"/>
+                              <Component id="engageJButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TitleJLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="srvrNameJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="srvrNameJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="hostJLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hostJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="portNoJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="portNoJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NoOfClientsJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NoClientsJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="msgsPerClientTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="msgsPerClientJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="idleTimeJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="engageJButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="outputJPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="printToFileJButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="TitleJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="WebSocket Chat Application Load Tester"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="portNoJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Port No.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="portNoJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="NoClientsJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of Clients to connect"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="NoOfClientsJTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="msgsPerClientTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="msgsPerClientJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of Messages per Client"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Idle time"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="idleTimeJTextField">
+    </Component>
+    <Container class="javax.swing.JPanel" name="outputJPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder>
+              <Color PropertyName="highlight" blue="cc" green="cc" red="cc" type="rgb"/>
+              <Color PropertyName="shadow" blue="66" green="66" red="66" type="rgb"/>
+            </EtchetBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="msgTXOutputJLbl" max="32767" attributes="0"/>
+                      <Component id="clientsJlbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="clientsOutputJLbl" alignment="0" min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="msgTXJLbl" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="71" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="conxjLbl" max="32767" attributes="0"/>
+                          <Component id="conxOutputJLbl" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="msgsRXOutputJLbl" alignment="0" max="32767" attributes="0"/>
+                          <Component id="msgsRXJLbl" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="timeJLbl" min="-2" max="-2" attributes="0"/>
+                      <Component id="conxTimeOutputJLbl" max="32767" attributes="0"/>
+                      <Component id="msgsTimeOutputJLbl" alignment="0" pref="68" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="clientsJlbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="conxjLbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="timeJLbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="clientsOutputJLbl" alignment="1" min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="conxOutputJLbl" alignment="1" min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="conxTimeOutputJLbl" alignment="1" min="-2" pref="16" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="13" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="msgTXJLbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="msgsRXJLbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="msgTXOutputJLbl" alignment="1" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="msgsRXOutputJLbl" alignment="1" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="msgsTimeOutputJLbl" alignment="1" min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="clientsJlbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Clients"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="conxjLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Connections"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="timeJLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Time in ms"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="clientsOutputJLbl">
+        </Component>
+        <Component class="javax.swing.JLabel" name="conxOutputJLbl">
+        </Component>
+        <Component class="javax.swing.JLabel" name="conxTimeOutputJLbl">
+        </Component>
+        <Component class="javax.swing.JLabel" name="msgTXJLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Messages TX"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="msgsRXJLbl">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Messages RX"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="msgTXOutputJLbl">
+        </Component>
+        <Component class="javax.swing.JLabel" name="msgsRXOutputJLbl">
+        </Component>
+        <Component class="javax.swing.JLabel" name="msgsTimeOutputJLbl">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="engageJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Engage"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="engageJButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="hostJLable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Host :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostJTextField">
+    </Component>
+    <Component class="javax.swing.JButton" name="printToFileJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Print Results To File"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printToFileJButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="srvrNameJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Server Under Test:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="srvrNameJTextField">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Enter Server Name"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
