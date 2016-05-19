@@ -44,14 +44,26 @@ public class ChatBot {
     private int connections;
     
     // Constructor
-    
+    /**
+     * 
+     * @param username
+     * @param host
+     * @param port
+     * @throws Exception 
+     */
     public ChatBot(String username, String host, int port)
     throws Exception
     {
         this.connection = new ChatClientEndpoint(new URI("ws://"+host+":"+port+"/"));
         //this.name = username;
     }
-    
+    /**
+     * 
+     * @param clients
+     * @param messages
+     * @param idleTime
+     * @throws Exception 
+     */
     public ChatBot(int clients, int messages, int idleTime)
     throws Exception
     {
@@ -113,7 +125,16 @@ public class ChatBot {
         received.set(0);
         sent.set(0);
     }    
-    
+    /**
+     * 
+     * In Jiji Sasidharan original application, this method was the main method.
+     * However as this was converted to a compute method so it could be called 
+     * from the LoadTestGUI class
+     * 
+     * @param host
+     * @param port
+     * @throws Exception 
+     */
     public void compute(String host, int port) throws Exception {
         // Create client serially
         start=System.currentTimeMillis();

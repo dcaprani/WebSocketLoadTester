@@ -113,7 +113,11 @@ public class OlderChatBot {
         sent.set(0);
     }
           
-    
+    /**
+     * This is the Original ChatBot main method
+     * @param arg
+     * @throws Exception 
+     */
     public static void main(String... arg) throws Exception {
 //        ChatLoadClient code
 //        String host=ChatBot.host;

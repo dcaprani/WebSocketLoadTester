@@ -35,11 +35,18 @@ public class LoadTestGUI extends javax.swing.JFrame {
     private long msgsTX;
     private long msgsRX;
     private long msgsRXTime;
+    //declare and create an arraylist of TestResult objects
     private ArrayList<TestResult> resArr = new ArrayList<>();
     
     private ChatBot myChatBot;
     public LoadTestGUI() {
         initComponents();
+        /**
+         * Set default values for test host,
+         * Number of clients &
+         * Number of messages per client
+         */
+         
         hostJTextField.setText("localhost");
         portNoJTextField.setText("8081");
         NoOfClientsJTextField.setText("500");
@@ -279,15 +286,17 @@ public class LoadTestGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
         
     private void engageJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_engageJButtonActionPerformed
-        // TODO add your handling code here:
-        // set output labels to empty strings
+      /**
+       * Set output labels to empty strings
+       * & Variable values to zero.
+       * 
+       */ 
         myChatBot = null;
         connections = 0;
         msgsTX = 0;
         msgsRX = 0;
         conxTime = 0;
         msgsRXTime = 0;
-        //myChatBot.
         conxOutputJLbl.setText("");
         conxTimeOutputJLbl.setText("");
         msgTXOutputJLbl.setText("");
@@ -330,7 +339,11 @@ public class LoadTestGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_engageJButtonActionPerformed
 
     private void printToFileJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_printToFileJButtonActionPerformed
-         
+         /**
+          * Write results values to file in tabular phone
+          *
+          * Ultimately values could be saved to a database
+          */
         try{
             
             File f = new File("Results.txt");

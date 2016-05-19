@@ -26,6 +26,10 @@ import javax.websocket.WebSocketContainer;
 /**
  *
  * @author dcaprani
+ * 
+ * This class modifies code written by Jiji Sasidharan
+ * and tailors it to suit the needs of the load testing application
+ * 
  */
 /**
  * ChatServer Client
@@ -39,8 +43,6 @@ public class ChatClientEndpoint {
     
     private WebSocketContainer container;
     private final String name;
-    //JSONParser parser = new JSONParser();
-    //private static final AtomicLong received = new AtomicLong(0);
     
  
 
@@ -94,13 +96,15 @@ public class ChatClientEndpoint {
  
     /**
      * Callback hook for Message Events. This method will be invoked when a
-     * client send a message.
+     * client sends a message.
      * 
      * @param message
      *            The text message
      */
     @OnMessage
     public void onMessage(String message) {
+        // As the message being received is no longer a JSON object
+        // there is no need to read it in as a JSON formated object
         //JsonReader jsr = Json.createReader(new StringReader(message));
         //JsonObject jso = jsr.readObject();
         if (this.messageHandler != null){
